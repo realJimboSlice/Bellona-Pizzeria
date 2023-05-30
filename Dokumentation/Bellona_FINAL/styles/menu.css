@@ -25,7 +25,7 @@ main{
     color: black;
 }
 
-h2{
+.h2piz{
     display: flex;
     justify-content: center;
     background-color: #478E53;
