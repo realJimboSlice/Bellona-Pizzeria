@@ -141,6 +141,11 @@ h1 {
   padding-bottom: 3px;
 }
 
+.footer .menu a {
+  text-decoration: none;
+  color: white;
+}
+
 .footer .aabningstider {
   flex: 0 0 auto;
   margin-right: 7.5%;
@@ -153,6 +158,24 @@ h1 {
 
 .footer .aabningstider li {
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  .footer .virksomheden,
+  .footer .menu,
+  .footer .aabningstider {
+    padding-left: 7.5%;
+    margin-right: 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer .virksomheden,
+  .footer .menu,
+  .footer .aabningstider {
+    padding-left: 7.5%;
+    margin-right: 50%;
+  }
 }
 
 .footer .kontrolrapport-betalingskort-some {
@@ -203,6 +226,24 @@ h1 {
 
 .footer .sociale-medier img {
   width: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer .kontrolrapport,
+  .footer .betalingsmuligheder,
+  .footer .sociale-medier {
+    padding-left: 7.5%;
+    margin-right: 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer .kontrolrapport,
+  .footer .betalingsmuligheder,
+  .footer .sociale-medier {
+    padding-left: 7.5%;
+    margin-right: 50%;
+  }
 }
 
 /* Footer slut */
