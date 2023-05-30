@@ -38,7 +38,7 @@
           <img src="img/test6.webp" alt="Bellona Pizzaria" />
         </div>
         <div class="omos_tekst">
-          <h1>Velkommen til Bellona Pizzaria!</h1>
+          <h1 class="overskrift_H1_omos">Velkommen til Bellona Pizzaria!</h1>
 
           <p>
             Vi er et pizzaria beliggende i Humlebæk, der er dedikeret til at
@@ -97,7 +97,7 @@
         </div>
         <div>
           <div class="google_maps">
-            <h2>Find os</h2>
+            <h2 class="overskrift_H2_omos">Find os</h2>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2233.150451775422!2d12.532052799999999!3d55.964095199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465237a695fbefa1%3A0x4b9dd2ba2f4aa3be!2sHumleb%C3%A6k%20Center%2028%2C%203050%20Humleb%C3%A6k!5e0!3m2!1sen!2sdk!4v1684929804999!5m2!1sen!2sdk"
               width="600"
@@ -112,27 +112,76 @@
       </div>
     </main>
 
-    <footer style="background-color: black">
-      <div>
-        <h4>BELLONA</h4>
-        <br />
-        <p>
-          Humlebæk Center 28,<br />
-          Humlebæk 3050<br /><br />
-          <span class="green_color">info@bellona.dk</span>
-        </p>
-      </div>
+    <!-- Footer -->
 
-      <div>
-        <h4>Åbningstider</h4>
-        <p>Mandag-søndag</p>
-        <time datetime="12.00">12:00 -</time>
-        <time datetime="21.30">21:30</time>
-        <p class="telefon">
-          TELEFON <span class="green_color">49 13 10 49</span>
-        </p>
+    <section class="footer">
+      <div class="container">
+        <div class="info">
+          <div class="virksomheden">
+            <a href="index.html">
+              <img src="img/Bellona-Logo.png" alt="Logo" />
+            </a>
+            <h2>Bellona Pizzeria</h2>
+            <span>Humlebæk Center 28, 3050 Humlebæk</span>
+            <br />
+            <br />
+            <a href="tlf">
+              <span>49 13 10 49</span>
+            </a>
+            <br>
+          </div>
+          <div class="menu">
+            <h3>Menu</h3>
+            <ul>
+              <li><a href="index.html">Forside</a></li>
+              <li><a href="">Menu</a></li>
+              <li><a href="">Om Os</a></li>
+              <li><a href="">Bestil</a></li>
+            </ul>
+          </div>
+          <div class="aabningstider">
+            <h3>Åbningstider</h3>
+            <ul>
+              <li class="mandag">Mandag 11:30 - 20:55</li>
+              <li class="tirsdag">Tirsdag 11:30 - 20:55</li>
+              <li class="onsdag">Onsdag 11:30 - 20:55</li>
+              <li class="torsdag">Torsdag 11:30 - 20:55</li>
+              <li class="fredag">Fredag 11:30 - 20:55</li>
+              <li class="lordag">Lordag 11:30 - 20:55</li>
+              <li class="sondag">Sondag 11:30 - 20:55</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="kontrolrapport-betalingskort-some">
+          <div class="kontrolrapport">
+            <a href="https://www.findsmiley.dk/706617"
+              ><img src="img/kontrol-rapport.png" alt="kontrolrapport ikon"
+            /></a>
+          </div>
+          <div class="betalingsmuligheder">
+            <img src="img/betaling.jpg" alt="kreditkort" />
+          </div>
+          <div class="sociale-medier">
+            <ul class="some-ikoner">
+              <li id="facebook">
+                <a href="https://www.facebook.com"
+                  ><img src="img/Facebook.png" alt="facebook ikon"
+                /></a>
+              </li>
+              <li id="instagram">
+                <a href="https://www.instagram.com"
+                  ><img src="img/Instagram.png" alt="instagram ikon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </footer>
+    </section>
+
+    <!-- Footer slut -->
     <script src="scripts/burger_script.js"></script>
+    <script src="scripts/hvilkendagerdetidag.js"></script>
   </body>
 </html>
