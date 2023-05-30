@@ -103,17 +103,16 @@ body {
 .om-os-aabningstider .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
 
-.om-os-aabningstider .container .omos {
+.om-os-aabningstider .omos {
   padding-left: 15%;
   padding-right: 10%;
 }
 
-.om-os-aabningstider .container .aabningstider {
+.om-os-aabningstider .aabningstider {
   padding-left: 10%;
   padding-right: 15%;
 }
@@ -144,6 +143,22 @@ td:last-child {
   width: 32%;
 }
 
+@media screen and (max-width: 600px) {
+  .om-os-aabningstider .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .om-os-aabningstider .omos {
+    padding-left: 15%;
+  }
+
+  .om-os-aabningstider .aabningstider {
+    padding-left: 15%;
+    padding-bottom: 5%;
+  }
+}
+
 /* Om os og Åbningstider slut */
 
 /* Kontaktinfo og Google Maps */
@@ -160,6 +175,21 @@ td:last-child {
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
   max-width: 1280px;
+}
+
+@media screen and (max-width: 600px) {
+  .kontaktinfo-og-gmaps .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .kontaktinfo {
+    width: 100%;
+  }
+
+  .gmaps {
+    width: 100%;
+  }
 }
 
 .kontaktinfo {
@@ -253,6 +283,11 @@ td:last-child {
   padding-bottom: 3px;
 }
 
+.footer .menu a {
+  text-decoration: none;
+  color: white;
+}
+
 .footer .aabningstider {
   flex: 0 0 auto;
   margin-right: 7.5%;
@@ -265,6 +300,20 @@ td:last-child {
 
 .footer .aabningstider li {
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  .footer .virksomheden, .footer .menu, .footer .aabningstider {
+    padding-left: 7.5%;
+    margin-right: 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer .virksomheden, .footer .menu, .footer .aabningstider {
+    padding-left: 7.5%;
+    margin-right: 50%;
+  }
 }
 
 .footer .kontrolrapport-betalingskort-some {
@@ -315,6 +364,20 @@ td:last-child {
 
 .footer .sociale-medier img {
   width: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer .kontrolrapport, .footer .betalingsmuligheder, .footer .sociale-medier {
+    padding-left: 7.5%;
+    margin-right: 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer .kontrolrapport, .footer .betalingsmuligheder, .footer .sociale-medier {
+    padding-left: 7.5%;
+    margin-right: 50%;
+  }
 }
 
 /* Footer slut */
