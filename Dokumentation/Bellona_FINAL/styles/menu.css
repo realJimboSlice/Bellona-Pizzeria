@@ -1,0 +1,105 @@
+main{
+    margin: 3% 20%;
+    max-width: 1300px;
+    color: whitesmoke;
+}
+
+.classic{
+    background-color: #478E53;
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr 1fr;
+    margin-bottom: 1.5%;
+    padding: 4%;
+    padding-bottom: 2.5%;
+}
+
+.speciel{
+    background-color: #478E53;
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr 1fr;
+    padding: 4%;
+}
+
+.menu{
+    margin-left: 1%;
+    color: black;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    background-color: #478E53;
+}
+
+p{
+    font-size: 62%;
+    font-weight: normal;
+    margin: 0.2%;
+}
+
+.pizzabox{
+    margin-right: -200%;
+    margin-top: 5%;
+}
+
+.meatpic{
+    width: 15.38%;   
+    border-radius: 50%;
+    margin: 0% 7%;
+}
+
+.pepperonipic{
+    width: 15.38%;   
+    border-radius: 50%;
+    margin: 0% 7%;
+}
+
+.salatpic{
+    width: 15.38%;   
+    border-radius: 50%;
+    margin: 0% 7%;
+}
+
+span{
+    margin-left: 0.19%;
+}
+
+.bestilher{
+    margin: 2%;
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+    .classic{
+        background-color: #478E53;
+        display: grid;
+        grid-template-columns: 5fr 1fr;
+        margin-bottom: 1.5%;
+        padding: 2%;
+        padding-left: 6%;
+    }
+    
+    .speciel{
+        background-color: #478E53;
+        display: grid;
+        grid-template-columns: 5fr 1fr;
+        padding: 2%;
+        padding-left: 6%;
+    }
+
+    .meatpic{
+        display: none;
+    }
+    
+    .pepperonipic{
+        display: none;
+    }
+    
+    .salatpic{
+        width: 25%;   
+        border-radius: 50%;
+        margin-bottom: 1%;
+    }
+}
+

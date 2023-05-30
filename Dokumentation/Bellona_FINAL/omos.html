@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Bellona Pizzeria</title>
+    <link rel="stylesheet" href="css/faelles_layout.css" />
+    <link rel="stylesheet" href="css/faelles_style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+
+
+      <!-- Simulate a smartphone / tablet -->
+      <div class="mobile-container">
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+          <a href="index.html"
+            ><img
+              class="mobil_logo"
+              src="../picture/logo_bellona.png"
+              alt="Logo"
+          /></a>
+
+          <ul id="myLinks">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="omos.html">Om os</a></li>
+            <li><a href=" menu.html ">Menu</a></li>
+            <li><a href="bestil.html ">Bestil</a></li>
+          </ul>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+
+<!--         <div style="padding-left: 16px">
+          <h3>Vertical Mobile Navbar</h3>
+          <p>
+            This example demonstrates how a navigation menu on a mobile/smart
+            phone could look like.
+          </p>
+          <p>
+            Click on the hamburger menu (three bars) in the top right corner, to
+            toggle the menu.
+          </p>
+        </div> -->
+
+        <!-- End smartphone / tablet look -->
+      </div>
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+      </script>
+    </header>
+
+    <main>
+      <div class="grid-2_1">
+        <div class="container_img_omos1">
+          <img src="../picture/webp_opt/test6.webp" alt="Bellona Pizzaria" />
+        </div>
+        <div class="omos_tekst">
+          <h1>Velkommen til Bellona Pizzaria!</h1>
+
+          <p>
+            Vi er et pizzaria beliggende i Humlebæk, der er dedikeret til at
+            tilbyde vores gæster en førsteklasses spiseoplevelse.
+            <br /><br />
+            Vores fokus er at bruge friske og kvalitetsrige råvarer til at skabe
+            lækre pizzaer, der vil tilfredsstille selv de mest kræsne smagsløg.
+            Vores menu er mangfoldig og omfatter klassiske favoritter samt vores
+            egne signaturretter. Vi tilbyder også glutenfri og vegetariske
+            muligheder, så alle kan nyde vores mad. Vores dygtige personale er
+            altid til rådighed for at give anbefalinger og sikre, at du får den
+            bedste spiseoplevelse hos os. <br /><br />Vi er også stolte af vores
+            nøje udvalgte vinkort, der supplerer vores mad perfekt. Vores udvalg
+            af vine er omhyggeligt udvalgt for at imødekomme forskellige
+            præferencer og smagsnuancer. Uanset om du er til en frisk hvidvin,
+            en fyldig rødvin eller en sprudlende mousserende vin, har vi noget
+            for enhver vinelsker. <br /><br />
+            Besøg os på Bellona Pizzaria i Humlebæk, og lad os forkæle dig med
+            vores gode råvarer, velsmagende pizzaer og fremragende vinkort. Vi
+            glæder os til at byde dig velkommen og give dig en uforglemmelig
+            spiseoplevelse.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid-1_1_1_1">
+        <div>
+          <img src="../picture/webp_opt/pizza1.webp" alt="" />
+          <h3>Bedre råvare = Bedre smag</h3>
+        </div>
+        <div>
+          <img src="../picture/webp_opt/pizza_making.webp" alt="" />
+          <h3>Her sker pizza magien</h3>
+        </div>
+        <div>
+          <img src="../picture/webp_opt/owen.webp" alt="" />
+          <h3>Byens pizza ovn</h3>
+        </div>
+
+        <div>
+          <img src="../picture/webp_opt/restaurant_table4.webp" alt="" />
+          <h3>Plads til 30 gæster</h3>
+        </div>
+      </div>
+
+      <div class="grid-1_1">
+        <div>
+          <img
+            class="transparent_img_omos"
+            src="../picture/webp_opt/no_background.webp"
+            alt=""
+          />
+          <form action="menu.html">
+            <button class="omos_button">Menu</button>
+          </form>
+        </div>
+        <div>
+          <div class="google_maps">
+            <h2>Find os</h2>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2233.150451775422!2d12.532052799999999!3d55.964095199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465237a695fbefa1%3A0x4b9dd2ba2f4aa3be!2sHumleb%C3%A6k%20Center%2028%2C%203050%20Humleb%C3%A6k!5e0!3m2!1sen!2sdk!4v1684929804999!5m2!1sen!2sdk"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer style="background-color: black">
+      <div>
+        <h4>BELLONA</h4>
+        <br />
+        <p>
+          Humlebæk Center 28,<br />
+          Humlebæk 3050<br /><br />
+          <span class="green_color">info@bellona.dk</span>
+        </p>
+      </div>
+
+      <div>
+        <h4>Åbningstider</h4>
+        <p>Mandag-søndag</p>
+        <time datetime="12.00">12:00 -</time>
+        <time datetime="21.30">21:30</time>
+        <p class="telefon">
+          TELEFON <span class="green_color">49 13 10 49</span>
+        </p>
+      </div>
+    </footer>
+    <script src="burger_script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,424 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
+}
+
+main {
+  max-width: 1500px;
+  margin: 5% auto;
+  margin-bottom: 7%;
+  padding: 0;
+}
+
+
+.mobil_logo {
+  width: 200px;
+}
+
+ .mobile-container {
+  width: 100%;
+  margin: auto;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background: linear-gradient(to right, #008c45, #ffffff, #cd212a);
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+
+
+
+time {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+
+/* active button in navigation */
+.active {
+  font-weight: bolder;
+}
+
+
+/* footer timer */
+time {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+h1{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0px 20px 0px 20px;
+  font-size: 50px;
+}
+
+h2{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 35px;
+}
+
+h4 {
+  color: whitesmoke;
+  font-size: 25px;
+}
+
+.telefon {
+  font-size: 25px;
+}
+
+.green_color {
+  color: #478e53;
+}
+
+
+.omos_tekst{
+  font-size: 20px;
+  max-width: 60ch;
+  height: 100%;
+}
+
+
+
+.container_img_omos1 img{
+  width: 800px;
+ border-radius: 10px;
+}
+
+.grid-1_1_1_1 img{
+  width: 775px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+iframe{
+  max-width: 100%;
+}
+
+.omos_button{
+  background-color: black;
+  color: #FFFFFF;
+  font-size: 18px;
+  border-radius: 7px;
+  padding: 1.5% 12% 1.5% 11.5%;
+  cursor: pointer;
+}
+
+.omos_button:hover{
+  background-color: rgb(53, 53, 53);
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 7px;
+  padding: 1.5% 12% 1.5% 11.5%;
+  cursor: pointer;
+}
+
+
+.transparent_img_omos{
+  width: 500px;
+  margin-bottom: 0;
+  
+}
+
+.transparent_pizza_img_omos{
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+footer p {
+  color: whitesmoke;
+  font-weight: bold;
+  
+}
+
+
+/* .mobile-container{
+
+  display: none;
+} */
+
+
+
+@media (max-width: 1150px) {
+  footer,
+  .grid-2_1,
+  .grid-1_1_1_1{
+    grid: none;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+   
+  }
+
+  .grid-1_1_1_1 img{
+    max-width: 60%;
+  }
+
+  .grid-1_1{
+    padding: 0;
+    text-align: center;
+    
+  }
+  .google_maps {
+    padding: 10px;
+    margin-right: 7% auto;
+  }
+
+  .grid-2_1{
+    text-align: center;
+  }
+
+
+
+  .container_img_omos1 img{
+    max-width: 70%;
+   border-radius: 10px;
+  }
+
+  .omos_tekst{
+    font-size: 20px;
+  max-width: 90%;
+  height: 100%;
+  padding: 0;
+  margin: 0 auto;
+    /* text-align: center;
+    justify-content: center; */
+  }
+
+
+  .container_img_omos1 img{
+    width: 80%;
+   border-radius: 10px;
+  }
+
+
+
+  }
+
+
+
+
+
+  @media (max-width: 800px) {
+    footer,
+    .grid-2_1{
+      grid: none;
+      padding: 0;
+      margin: 0 auto;
+      text-align: center;
+     
+    }
+    
+   
+    .grid-1_1_1_1{
+      grid: none;
+      padding: 0;
+      margin: 7% 7%;
+      text-align: center;
+    }
+
+    .grid-1_1{
+      grid: none;
+      padding: 0;
+      margin: 0 auto;
+      text-align: center;
+      gap: none;
+    }
+
+  
+    .google_maps {
+      padding: 10px;
+      margin: 0 auto;
+      
+    }
+  
+    .grid-2_1{
+      text-align: center;
+    }
+  
+
+
+    .mobil_logo {
+      width: 160px;
+    }
+  
+    .omos_tekst{
+      font-size: 20px;
+    max-width: 90%;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+      /* text-align: center;
+      justify-content: center; */
+    }
+  
+  
+
+  
+
+
+
+
+
+
+    }
+
+
+
+
+
+@media (max-width: 600px) {
+  footer,
+  .grid-2_1{
+    grid: none;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .grid-1_1_1_1{
+    grid: none;
+    padding: 0;
+    margin: 7% 7%;
+    text-align: center;
+   
+  }
+
+  .grid-2_1{
+    text-align: center;
+  }
+
+
+
+  .omos_tekst{
+    font-size: 20px;
+  max-width: 90%;
+  height: 100%;
+  padding: 0;
+  margin: 0 auto;
+  }
+
+
+  .google_maps {
+    padding: 10px;
+    margin-right: 7% auto;
+  }
+  
+
+
+
+  }
+
+
+  @media (max-width: 500px) {
+    footer,
+    .grid-2_1{
+      grid: none;
+      padding: 0;
+      margin: 0 auto;
+    }
+  
+    .grid-1_1_1_1{
+      grid: none;
+      padding: 0;
+      margin: 7% 7%;
+      text-align: center;
+     
+    }
+  
+    .grid-2_1{
+      text-align: center;
+    }
+  
+
+  
+    .omos_tekst{
+      font-size: 20px;
+    max-width: 90%;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+
+    }
+  
+  iframe{
+    max-width: 90%;
+    margin: 10px;
+    margin-left: 0;
+    text-align: center;
+  }
+   
+  /*mobil version*/
+
+.mobil_logo{
+  width: 180px;
+}
+
+ .mobile-container {
+  max-width: 100%;
+  margin: auto;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background: linear-gradient(to right, #008c45, #ffffff, #cd212a);
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+    
+   
+    }
