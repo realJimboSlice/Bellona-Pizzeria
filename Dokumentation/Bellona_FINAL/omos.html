@@ -1,72 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <title>Bellona Pizzeria</title>
-    <link rel="stylesheet" href="css/faelles_layout.css" />
-    <link rel="stylesheet" href="css/faelles_style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/faelles_layout.css" />
+    <link rel="stylesheet" href="styles/faelles_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <header>
-
-
-      <!-- Simulate a smartphone / tablet -->
-      <div class="mobile-container">
-        <!-- Top Navigation Menu -->
-        <div class="topnav">
-          <a href="index.html"
-            ><img
-              class="mobil_logo"
-              src="../picture/logo_bellona.png"
-              alt="Logo"
-          /></a>
-
-          <ul id="myLinks">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="omos.html">Om os</a></li>
-            <li><a href=" menu.html ">Menu</a></li>
-            <li><a href="bestil.html ">Bestil</a></li>
-          </ul>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </div>
-
-<!--         <div style="padding-left: 16px">
-          <h3>Vertical Mobile Navbar</h3>
-          <p>
-            This example demonstrates how a navigation menu on a mobile/smart
-            phone could look like.
-          </p>
-          <p>
-            Click on the hamburger menu (three bars) in the top right corner, to
-            toggle the menu.
-          </p>
-        </div> -->
-
-        <!-- End smartphone / tablet look -->
+      <div class="logo">
+        <a href="index.html"
+          ><img class="logo" src="img/Bellona-Logo.png" alt="Logo"
+        /></a>
       </div>
 
-      <script>
-        function myFunction() {
-          var x = document.getElementById("myLinks");
-          if (x.style.display === "block") {
-            x.style.display = "none";
-          } else {
-            x.style.display = "block";
-          }
-        }
-      </script>
+      <nav class="main-menu">
+        <button class="toggle-btn">Menu</button>
+        <ul>
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="omos.html">Om os</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="bestil.html">Bestil</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <main>
+    <main class="max-width_omos">
       <div class="grid-2_1">
         <div class="container_img_omos1">
-          <img src="../picture/webp_opt/test6.webp" alt="Bellona Pizzaria" />
+          <img src="img/test6.webp" alt="Bellona Pizzaria" />
         </div>
         <div class="omos_tekst">
           <h1>Velkommen til Bellona Pizzaria!</h1>
@@ -97,20 +66,20 @@
 
       <div class="grid-1_1_1_1">
         <div>
-          <img src="../picture/webp_opt/pizza1.webp" alt="" />
+          <img src="img/pizza1.webp" alt="" />
           <h3>Bedre råvare = Bedre smag</h3>
         </div>
         <div>
-          <img src="../picture/webp_opt/pizza_making.webp" alt="" />
+          <img src="img/pizza_making.webp" alt="" />
           <h3>Her sker pizza magien</h3>
         </div>
         <div>
-          <img src="../picture/webp_opt/owen.webp" alt="" />
+          <img src="img/owen.webp" alt="" />
           <h3>Byens pizza ovn</h3>
         </div>
 
         <div>
-          <img src="../picture/webp_opt/restaurant_table4.webp" alt="" />
+          <img src="img/restaurant_table4.webp" alt="" />
           <h3>Plads til 30 gæster</h3>
         </div>
       </div>
@@ -119,7 +88,7 @@
         <div>
           <img
             class="transparent_img_omos"
-            src="../picture/webp_opt/no_background.webp"
+            src="img/no_background.webp"
             alt=""
           />
           <form action="menu.html">
@@ -164,6 +133,6 @@
         </p>
       </div>
     </footer>
-    <script src="burger_script.js"></script>
+    <script src="scripts/burger_script.js"></script>
   </body>
 </html>
