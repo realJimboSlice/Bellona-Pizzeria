@@ -1,0 +1,97 @@
+body {
+  margin: 0 auto;
+}
+
+/*grid nr. 1*/
+
+.grid-1-1-1 {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(1, 500px);
+  background: url(../asset/pizza-g4bcdfa8d4_1920.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  place-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .grid-1-1-1 {
+    max-width: 100%;
+    display: inline;
+    background-image: none;
+  }
+
+  .container {
+    display: none;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 0.2em;
+    font-size: 15px;
+  }
+}
+
+.grid-1-1-1 img {
+  max-width: 55%;
+}
+
+.justeat {
+  text-align: center;
+}
+
+.dagensmenu {
+  text-align: center;
+}
+
+.eatonline {
+  text-align: center;
+}
+
+/*grid nr. 2*/
+
+.grid-1-1 {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(1, 500px);
+}
+
+.grid-item-maps {
+  background-color: #008c45;
+  grid-column: 2/3;
+  grid-row: 1;
+}
+
+.grid-item-tekst {
+  background-color: #008c45;
+  grid-column: 1/2;
+  grid-row: 1;
+}
+
+/*styling*/
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: 17.5px;
+  letter-spacing: 2.5px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+}
+
+footer p {
+  color: black;
+}
