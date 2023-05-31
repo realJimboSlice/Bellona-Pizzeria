@@ -53,10 +53,11 @@ ul a {
   border: none;
   min-width: 44px;
   min-height: 44px;
-  font-size: 1.1rem;
+  font-size: 21px;
   cursor: pointer;
   display: none;
   color: #ffffff;
+  font-family: "Hoefler Text";
 }
 
 .bellonavid{
