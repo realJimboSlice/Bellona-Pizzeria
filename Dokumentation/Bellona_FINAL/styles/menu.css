@@ -25,6 +25,10 @@ main{
     color: black;
 }
 
+.active{
+font-weight: bold;
+}
+
 .h2piz{
     display: flex;
     justify-content: center;

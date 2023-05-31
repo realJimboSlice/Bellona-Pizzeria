@@ -2,7 +2,7 @@ let index = 0;
 displayImages();
 function displayImages() {
   let i;
-  const images = document.getElementsByClassName("image");
+  const images = document.getElementsByClassName("billede");
   for (i = 0; i < images.length; i++) {
     images[i].style.display = "none";
   }

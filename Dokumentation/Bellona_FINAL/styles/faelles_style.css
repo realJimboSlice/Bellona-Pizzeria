@@ -59,6 +59,15 @@ ul a {
   color: #ffffff;
 }
 
+.bellonavid{
+  width: 95%;
+}
+
+.videocontainer{
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
 @media (max-width: 1200px) {
   .toggle-btn {
     display: block;
