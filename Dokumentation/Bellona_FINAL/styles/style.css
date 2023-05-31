@@ -335,6 +335,7 @@ font-weight: bold;
 
 .footer .kontrolrapport img {
   height: 30px;
+  width: auto;
   object-fit: contain;
   object-position: left;
 }
@@ -346,6 +347,7 @@ font-weight: bold;
 
 .footer .betalingsmuligheder img {
   height: 30px;
+  width: auto;
   object-fit: contain;
   object-position: left;
 }
@@ -368,6 +370,7 @@ font-weight: bold;
 
 .footer .sociale-medier img {
   width: 30px;
+  height: auto;
 }
 
 @media screen and (max-width: 600px) {
