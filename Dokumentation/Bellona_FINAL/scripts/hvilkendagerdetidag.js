@@ -56,7 +56,7 @@ function changeColorBasedOnDay() {
           break;
         case 3: // Onsdag
           if (element.classList.contains("onsdag")) {
-            element.style.backgroundColor = "#008C45";
+            element.style.backgroundColor = "#016933";
           }
           break;
         case 4: // Torsdag

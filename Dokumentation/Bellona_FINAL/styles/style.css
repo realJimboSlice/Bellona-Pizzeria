@@ -331,6 +331,7 @@ td:last-child {
 
 .footer .kontrolrapport img {
   height: 30px;
+  width: auto;
   object-fit: contain;
   object-position: left;
 }
@@ -342,6 +343,7 @@ td:last-child {
 
 .footer .betalingsmuligheder img {
   height: 30px;
+  width: auto;
   object-fit: contain;
   object-position: left;
 }
@@ -364,6 +366,7 @@ td:last-child {
 
 .footer .sociale-medier img {
   width: 30px;
+  height: auto;
 }
 
 @media screen and (max-width: 600px) {
