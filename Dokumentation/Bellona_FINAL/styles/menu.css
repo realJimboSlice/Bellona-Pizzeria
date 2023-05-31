@@ -25,6 +25,15 @@ main{
     color: black;
 }
 
+.active{
+font-weight: bold;
+}
+
+.indholdsbox{
+    font-weight: lighter;
+    font-size: 75%;
+}
+
 .h2piz{
     display: flex;
     justify-content: center;

@@ -59,6 +59,15 @@ ul a {
   color: #ffffff;
 }
 
+.bellonavid{
+  width: 95%;
+}
+
+.videocontainer{
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
 @media (max-width: 1200px) {
   .toggle-btn {
     display: block;
@@ -193,8 +202,6 @@ ul a {
     height: 100%;
     padding: 0;
     margin: 0 auto;
-  
-
   }
 
   .container_img_omos1 img {
@@ -208,7 +215,7 @@ time {
   font-weight: bold;
 }
 
-/* active button in navigation */
+/* active button in navigationn */
 .active {
   font-weight: bold;
 }
