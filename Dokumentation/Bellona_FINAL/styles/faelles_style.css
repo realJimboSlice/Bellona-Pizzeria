@@ -53,10 +53,11 @@ ul a {
   border: none;
   min-width: 44px;
   min-height: 44px;
-  font-size: 1.1rem;
+  font-size: 21px;
   cursor: pointer;
   display: none;
   color: #ffffff;
+  font-family: "Hoefler Text";
 }
 
 .bellonavid{
@@ -108,7 +109,7 @@ ul a {
   }
   .google_maps {
     padding: 10px;
-    margin-right: 7% auto;
+    margin: 7%;
   }
 
   .grid-2_1 {
@@ -184,7 +185,7 @@ ul a {
   }
   .google_maps {
     padding: 10px;
-    margin-right: 7% auto;
+    margin: 7%;
   }
 
   .grid-2_1 {
@@ -202,8 +203,6 @@ ul a {
     height: 100%;
     padding: 0;
     margin: 0 auto;
-  
-
   }
 
   .container_img_omos1 img {
@@ -217,7 +216,7 @@ time {
   font-weight: bold;
 }
 
-/* active button in navigation */
+/* active button in navigationn */
 .active {
   font-weight: bold;
 }
